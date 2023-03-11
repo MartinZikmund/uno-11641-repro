@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "AppTest.Windows": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

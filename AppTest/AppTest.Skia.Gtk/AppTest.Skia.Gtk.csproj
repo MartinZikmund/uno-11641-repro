@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType Condition="'$(Configuration)'=='Release'">WinExe</OutputType>
+    <OutputType Condition="'$(Configuration)'=='Debug'">Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup Condition="exists('..\AppTest.Windows')">
+    <EmbeddedResource Include="..\AppTest.Windows\Package.appxmanifest" LogicalName="Package.appxmanifest" />
+    <Content Include="..\AppTest.Windows\Images\StoreLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Uno.WinUI.Skia.Gtk" />
+    <PackageReference Include="Uno.WinUI.RemoteControl" Condition="'$(Configuration)'=='Debug'" />
+    <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" />
+    <PackageReference Include="Uno.WinUI.Lottie" />
+    <PackageReference Include="SkiaSharp.Views.Uno.WinUI" />
+    <PackageReference Include="SkiaSharp.Skottie" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppTest\AppTest.csproj" />
+  </ItemGroup>
+  <Import Project="..\AppTest.Base\base.props" />
+</Project>

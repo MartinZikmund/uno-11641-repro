@@ -1,0 +1,35 @@
+<Project>
+    <PropertyGroup>
+      <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageVersion Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.2.230217.4" />
+      <PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
+
+      <PackageVersion Include="Uno.WinUI.Skia.Gtk" Version="4.9.0-dev.29" />
+      <PackageVersion Include="Uno.WinUI.Skia.Wpf" Version="4.9.0-dev.29" />
+      <PackageVersion Include="Uno.WinUI.Skia.Linux.FrameBuffer" Version="4.9.0-dev.29" />
+      <PackageVersion Include="Uno.WinUI.RemoteControl" Version="4.9.0-dev.29" />
+      <PackageVersion Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.9.0-dev.29" />
+      <PackageVersion Include="Uno.WinUI.Lottie" Version="4.9.0-dev.29" />
+      <PackageVersion Include="SkiaSharp.Views.Uno.WinUI" Version="2.88.3" />
+      <PackageVersion Include="SkiaSharp.Skottie" Version="2.88.3" />
+
+      <PackageVersion Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+      <PackageVersion Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
+      <PackageVersion Include="Uno.Extensions.Logging.WebAssembly.Console" Version="1.4.0" />
+      <PackageVersion Include="Uno.WinUI.WebAssembly" Version="4.9.0-dev.29" />
+      <PackageVersion Include="Uno.Wasm.Bootstrap" Version="7.0.11" />
+      <PackageVersion Include="Uno.Wasm.Bootstrap.DevServer" Version="7.0.11" />
+      <PackageVersion Include="Uno.Wasm.Bootstrap.Server" Version="7.0.0-dev.195" />
+
+      <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+      <PackageVersion Include="Uno.Core.Extensions.Logging.Singleton" Version="4.0.1" />
+      <PackageVersion Include="Uno.WinUI" Version="4.9.0-dev.29" />
+
+      <PackageVersion Include="Xamarin.Google.Android.Material" Version="1.4.0.4" />
+      <PackageVersion Include="Uno.UniversalImageLoader" Version="1.9.36" />
+      <PackageVersion Include="Uno.Extensions.Logging.OSLog" Version="1.4.0" />
+    </ItemGroup>
+  </Project>
